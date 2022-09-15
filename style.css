@@ -1,8 +1,27 @@
+body {
+    background-color: antiquewhite;
+}
 .head {
     margin-top: 50;
     margin-bottom: 50;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 75;
 }
 .topic {
     text-align: center;
+    margin-bottom: 50;
+    font-size: 50;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+span {
+    background-color: rgba(255, 30, 0, 0.829);
+    
+    font-size: 30;
+    padding: 10;
+}
+
+p {
+    font-size: 20;
 }

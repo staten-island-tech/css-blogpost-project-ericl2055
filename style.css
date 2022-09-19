@@ -18,12 +18,45 @@ body {
 p {
     font-size: 20;
 }
-div.title {
+
+
+div.head {
     position: absolute;
-    top: 300px;
+    top: 100px;
+    bottom: 200px;
     right: auto;
     width: 200px;
     height: 200px;
     border: 3px solid red;
-    columns: 300px;
+}
+div.topic {
+    position: absolute;
+    top: 200px;
+    right: auto;
+}
+div.title {
+    display: flex;
+    column-count: 3;
+    column-gap: 600px;
+    column-rule: ;
+    position: absolute;
+    top: 300px;
+    left: 160;
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+}
+div.image {
+  display: flex;
+    position: absolute;
+    top: 500px;
+   
+}
+div.preview {
+    position: absolute;
+    top: 900px;
+}
+div.link {
+    position: absolute;
+    top: 1200px;
 }

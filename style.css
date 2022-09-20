@@ -1,51 +1,40 @@
 body {
     background-color: antiquewhite;
-    text-align: center;
 }
 .head {
-    margin-top: 50;
-    margin-bottom: 30;
+    border: 5px solid;
+    border-color: white;
+    margin: 10px auto;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     font-size: 75;
+    
 }
-.topic {
+.outer  {
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
     text-align: center;
-    margin-bottom: 50;
-    font-size: 45;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+   
 }
-p {
-    font-size: 20;
+.california {
+    background-color: orangered;
 }
-
-
-div.head {
-    bottom: 200px;
-    right: auto;
-    width: 200px;
-    height: 200px;
-    border: 3px solid red;
+.inflation {
+    background-color: gainsboro;
 }
-div.title {
-    display: inline-block;
-    margin: auto;
-    padding:40px;
-    top: 100px;
+.homework {
+    background-color: cadetblue;
+}
+.background {
+    font-family: 'Poppins',sans-serif;
     width: 25%;
-    height: 200px;
-    font-size: 25px;
-}
-
-
-div.preview {
-    text-align: center;
-    display: inline-block;
-    margin: auto;
-    padding: 50px;
-    bottom: 100px;
-}
-div.link {
-  
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding:50px;
 }

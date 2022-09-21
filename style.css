@@ -1,40 +1,38 @@
 body {
-    background-color: antiquewhite;
+  background-color: antiquewhite;
 }
 .head {
-    border: 5px solid;
-    border-color: white;
-    margin: 10px auto;
-    text-align: center;
-    font-size: 75;
-    
+  border: 5px solid;
+  border-color: white;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 75;
 }
-.outer  {
-    position: absolute;
-    left: 1px;
-    right: 1px;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 20px;
-    text-align: center;
-   
+.outer {
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  text-align: center;
 }
 .california {
-    background-color: orangered;
+  background-color: orangered;
 }
 .inflation {
-    background-color: gainsboro;
+  background-color: gainsboro;
 }
 .homework {
-    background-color: cadetblue;
+  background-color: cadetblue;
 }
 .background {
-    font-family: 'Poppins',sans-serif;
-    width: 25%;
-    border-radius: 15px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    padding:50px;
+  font-family: "Poppins", sans-serif;
+  width: 25%;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
 }
